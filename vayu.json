@@ -1,0 +1,22 @@
+[
+  {
+    "device": "vayu",
+    "maintainer": "TechPanelGM (Giovanni)",
+    "github": "TechPanelGM",
+    "status": "active",
+    "firmware": {
+      "required": true,
+      "url": "https://xmfirmwareupdater.com/firmware/vayu/stable/V14.0.3.0.TJUMIXM/"
+    },
+    "ci": {
+      "enabled": true,
+      "schedule": "monthly",
+      "build_target": "user",
+      "build_type": "both"
+    },
+    "installation_images": {
+      "vic": ["recovery"],
+      "vic-vanilla": ["recovery"]
+    }
+  }
+]
